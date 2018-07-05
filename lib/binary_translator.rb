@@ -29,4 +29,11 @@ class BinaryTranslator
       "z" => "011010"
     }
   end
+    def translate(letter)
+      def translate(letter)
+        @alpha_to_binary[letter]
+      end
+      #@alpha_to_binary.fetch_values(letter)
+    end
+
 end
